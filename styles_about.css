@@ -38,3 +38,7 @@ body {
     background-color: #5865F2;
     color: #ffffff;
   }
+
+  .disclaimer {
+    font-style: italic;
+  }
