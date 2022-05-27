@@ -5,13 +5,42 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
   </head>
   <body>
+    <style>
+      body {
+        background-image: url('img/bg.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style> 
     <div class="topnav">
       <a href="https://discord.gg/JRmBQ67Z" class="discord"><img src="img/dc.png" height="15px"> Discord</a>
       <a href="about.html">About us</a>
       <a href="index.html" class="split"><img src="img/logo.png" height="15px"> Home</a>
       <a href="feedback.html">Feedback</a>
       <a href="form.html">Ordering</a>
-      <a href="items.html">Item List</a>
-    </div> 
+      <a href="items.html">Catalog</a>
+    </div>
+    <div class="main">
+      <h1 class="heading">Our current sections:<br></h1>
+      <div class="button1">
+        <button class="btn" onclick="location.href='shop/all.html'" style="width: 30%; padding: 10px 14px; border: 2px solid black; color: black; font-size: 24px;" type="button">View all available items</button>
+     </div>
+     <h1>Eldham International Shopping Offers:</h1>
+      <div class="button">
+        <button class="btn" onclick="location.href='shop/armor.html'" style="width: 30%; padding: 10px 14px; border: 2px solid black; color: black; font-size: 24px;" type="button">Armor & Weapons</button>
+     </div>
+     <div class="button">
+       <button class="btn" onclick="location.href='shop/tools.html'" style="width: 30%; padding: 10px 14px; border: 2px solid black; color: black; font-size: 24px;" type="button">Tools</button>
+     </div>
+      <div class="button">
+        <button class="btn" onclick="location.href='shop/building.html'" style="width: 30%; padding: 10px 14px; border: 2px solid black; color: black; font-size: 24px;" type="button">Building Materials</button>
+     </div>
+     <div class="button">
+       <button class="btn" onclick="location.href='shop/misc.html'" style="width: 30%; padding: 10px 14px; border: 2px solid black; color: black; font-size: 24px;" type="button">Miscellaneous</button>
+      </div>
+      <h1>Marketplaces:</h1>
+      <h2 style="color: red;">Currently none available!</h2>
+    </div>
   </body>
 </html>
